@@ -27,3 +27,6 @@ body{
     padding-left: 11rem;
     padding-right: 1rem;
 }
+a {
+    color: red;
+}
