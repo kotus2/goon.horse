@@ -30,3 +30,10 @@ body{
 a {
     color: red;
 }
+
+#telia{
+    color: blueviolet;
+    align-content: center;
+    padding-left: 49%;
+    padding-right: 50%;
+}
