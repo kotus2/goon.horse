@@ -33,7 +33,9 @@ a {
 
 #telia{
     color: blueviolet;
-    align-content: center;
-    padding-left: 49%;
-    padding-right: 50%;
+    text-align: center;
+
+}
+#teliaContent{
+    text-align: center;
 }
