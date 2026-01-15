@@ -1,7 +1,8 @@
 @font-face {
     font-family: FaithCollapsing;
-    src: url("FaithCollapsing.ttf");
-
+    
+    src: url("FaithCollapsing.ttf"),
+    local("FaithCollapsing");
 }
 
 body{
