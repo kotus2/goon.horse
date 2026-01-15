@@ -1,0 +1,44 @@
+body{
+    background-image: url("evilGuys.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(252, 42, 14);
+    font-family:cursive;
+    text-shadow: 15px 15px 1px black;
+    
+}
+
+button{
+    font-size: 40px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    color: rgb(158, 26, 26);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+button:active{
+    font-size: 39px;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(201, 189, 175);
+    color: rgb(120, 11, 11);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+#header{
+    justify-self: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+    
+}
+.headerButton{
+    border: none;
+    border-radius: 0px;
+    position: sticky;
+    margin: 1px;
+}

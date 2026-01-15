@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Испытание №2</title>
+    <link rel="stylesheet" href="web2.css">
+
+</head>
+
+<body id="body">
+
+    <h1 id="h1">Чтож бетмен, у меня твой бетмобиль<br>
+        Играем в рулетку
+        </h1><br>
+        
+        <div id="creditCardContainer">
+            <p id="goal"></p>
+            
+            <img src="whySoSerious.jpg" id="whySoSerious">
+            <a href="../web.html"><button id="returnButton">Вернуться</button></a>
+            
+            
+            
+            <div id="creditCardInfo">
+
+                
+                <form id="creditCardInputing">
+                    <br><br>
+                    <label for=cardNumber>Credit card number</label>
+                    <input type="text" id="cardNumber" placeholder="0000-0000-0000-0000" maxlength="16" >
+                    
+                    <label for=expirationDate>Expiration Date</label>
+                    <input type="text" placeholder="MM/YY"  id="expirationDate" maxlength="5"><br><br>
+            
+                    
+                    <label for=ownerName>Name</label>
+                    <input type="text"  id="ownerName" placeholder="Ivan Ivanov">
+                    
+                    <label for=cvv>CVV</label>
+                    <input type="text"  id="cvv" placeholder="CVV" maxlength="3"><br></form>
+                    
+                    <br><br>
+            </div>
+            
+            <button id="creditCardSubmit">Продолжить</button>
+            <p id="wrongAnswer"></p>
+            
+            
+        
+        </div>
+
+        
+    <button id="startProcess">Начать</button>
+    
+        
+        <script src="web2.js"></script>
+</body>
+</html>

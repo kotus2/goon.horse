@@ -1,0 +1,26 @@
+@font-face {
+    font-family: FaithCollapsing;
+    src: url("FaithCollapsing.ttf");
+
+}
+
+body{
+    background-color: gray;
+    display: grid;
+    font-family: FaithCollapsing;
+    font-size: large;
+    
+}
+
+div{
+    align-self: center;
+    
+}
+
+#headerbox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
