@@ -6,8 +6,7 @@
 }
 
 body{
-    background-color: gray;
-    display: grid;
+    display: block;
     font-family: FaithCollapsing;
     font-size: large;
     
@@ -25,3 +24,13 @@ div{
     
 }
 
+#mouseBox{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+.mouse{
+    display: flex;
+    justify-content: center;
+}
