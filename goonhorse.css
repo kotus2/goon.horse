@@ -9,10 +9,22 @@ body{
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 15px;
+}
+.mainHeader {
+    text-align: center;
+    animation: headeranim 0.5s infinite linear;
+    margin-bottom: 2rem;
+}
+@keyframes headeranim { /* hassu animaatio pääotsikolle */
+    0% { rotate: 0deg }
+    25% { rotate: 10deg }
+    75% { rotate: -10deg }
+    100% { rotate: 0deg }
 }
 .navbar { /*sivupalkki, jossa on ongelmia kai*/
     position: absolute;
-    height: 225%; /*CSS on huono kieli*/
+    height: 2010px; /*CSS on huono kieli*/ /*CSS on vieläkin huono kieli*/
     width: 10rem;
     background-color: brown;
     padding-top: 1rem;
