@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
 }
 .main { /*kaikki jutut tungettu tähän*/
+    display: flex;
     height: 100%;
     border: 7px double brown;
     background-color: white;
@@ -23,8 +24,8 @@ body{
     100% { rotate: 0deg }
 }
 .navbar { /*sivupalkki, jossa on ongelmia kai*/
-    position: absolute;
-    height: 2010px; /*CSS on huono kieli*/ /*CSS on vieläkin huono kieli*/
+    position: inherit;
+    height: auto; /*CSS on huono kieli*/ /*CSS on vieläkin huono kieli*/
     width: 10rem;
     background-color: brown;
     padding-top: 1rem;

@@ -4,13 +4,45 @@
     src: url("FaithCollapsing.ttf"),
     local("FaithCollapsing");
 }
+@font-face {
+    font-family: badUnicorn;
+    src: url("BadUnicornDemoRegular-BVWx.ttf"),
+    local("BadUnicorn");
+}
 
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
+    
 
     font-family: FaithCollapsing;
     font-size: large;
+}
+
+#headerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bodyBox{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    border-right: 2px solid black;
+    width: 33%; 
+}
+
+#middle{
+    width: 33%;
+    padding: 0.5rem;
+    color: palevioletred;
+    
+    font-family: BadUnicorn;
+    font-size: 40px;
+    border-style: solid;
+    background-image: url("magic bg.jpg");
 }
 
