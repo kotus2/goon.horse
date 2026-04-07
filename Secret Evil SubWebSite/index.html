@@ -11,12 +11,13 @@
     <header id="headerBox">
         <h1><a href="webeng.html">Jonkler Nettisivu</a></h1>
         <div>
+            <button id="linkButton" onclick="linkButtonFunc()"></button>
             <a href="https://s4nd.win/"><img src=s4nd8831.gif></a>
             <a href="https://goon.horse"><img src="goonHorseGif.gif"></a>
         </div>
     </header>          
     
-    <div id="bodyBox">
+    <main id="bodyBox">
         <div id="left">
             <div id="mouseBox">
                 <h1>BEHOLD and OBSERVE, the position of your CURSOR</h1>
@@ -31,11 +32,13 @@
         </div>
         
         <div id="right">
-     <!--       <p><===>|</p>
-            <p><===>|=========></p>
-            <p><===>|</p> -->
+            <p>high: <span id="high"></span></p>
+            <p>score: <span id="score"></span></p>
+            <canvas id="game" width="256" height="256"></canvas>
+            <br>
+            <button onclick="jump()">jump</button>
         </div>
-    </div>
+    </main>
     
     <script src="script.js"></script>
 </body>

@@ -24,6 +24,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
+    border-bottom: black solid 2px;
 }
 #bodyBox{
     display: flex;
@@ -45,4 +47,23 @@ body{
     border-style: solid;
     background-image: url("magic bg.jpg");
 }
+
+#right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkButton{
+    background-image: url(skull.png);
+    background-size: cover;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+}
+#linkButton:hover{
+    background-image: url(bad-to-the-bone-meme.gif);
+}
+
 
