@@ -1,0 +1,11 @@
+html {
+    color-scheme: dark;
+    color: white;
+    background-color: black;
+    background-image: url('Secret Evil SubWebSite/bad-to-the-bone-meme.gif');
+}
+body {
+    margin: auto;
+    width: 75%;
+    background-color: #000d;
+}
