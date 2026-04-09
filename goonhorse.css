@@ -29,7 +29,7 @@ body{
 .navbar { /*sivupalkki, jossa on ongelmia kai*/
     position: inherit;
     height: auto; /*CSS on huono kieli*/ /*CSS on vieläkin huono kieli*/
-    width: 12rem;
+    width: 20%;
     background-color: brown;
     padding-top: 1rem;
     overflow-x: hidden;
@@ -45,6 +45,7 @@ body{
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: large;
 }
 #americanHorse{
     align-self: center;
