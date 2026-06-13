@@ -8,25 +8,38 @@
     <link rel="icon" type="image/x-icon" href="skeletonIcon.png">
 </head>
 <body>
-    <div id="headerbox">
-        <header>
-            <h1><a href="webeng.html">Jonkler</a></h1>
+    <header id="headerBox">
+        <h1><a href="webeng.html">Jonkler Nettisivu</a></h1>
+        <div>
+            <button id="linkButton" onclick="linkButtonFunc()"></button>
             <a href="https://s4nd.win/"><img src=s4nd8831.gif></a>
-            <div id="leftBox"></div>
-        </header>
-    </div>
-    <hr>
- 
-    <div id="bodyBox">
-        <div id="mouseBox">
-            <h1>BEHOLD and OBSERVE, the position of your CURSOR</h1>
-            <br>
-            <h1 id="mouseX" class="mouse"></h1>
-            <h1 id="mouseY" class="mouse"></h1>
+            <a href="https://goon.horse"><img src="goonHorseGif.gif"></a>
         </div>
-
-
-    </div>
+    </header>          
+    
+    <main id="bodyBox">
+        <div id="left">
+            <div id="mouseBox">
+                <h1>BEHOLD and OBSERVE, the position of your CURSOR</h1>
+                <br>
+                <h1 id="mouseX" class="mouse"></h1>
+                <h1 id="mouseY" class="mouse"></h1>
+            </div>
+        </div>
+        
+        <div id="middle">
+            <p>Lorem ipsum dolor sit, amet🥵🥵🥵 consectetur adipisicing elit. Quod sed culpa😏😏 unde fugit eum similique dolor deserunt autem nesciunt perspiciatis ut omnis minima, voluptate rem doloremque voluptatem recusandae voluptates consequuntur!😈😈😈</p>
+        </div>
+        
+        <div id="right">
+            <p>high: <span id="high"></span></p>
+            <p>score: <span id="score"></span></p>
+            <canvas id="game" width="256" height="256"></canvas>
+            <br>
+            <button onclick="jump()">jump</button>
+        </div>
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html>

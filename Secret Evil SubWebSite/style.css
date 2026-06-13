@@ -4,33 +4,66 @@
     src: url("FaithCollapsing.ttf"),
     local("FaithCollapsing");
 }
+@font-face {
+    font-family: badUnicorn;
+    src: url("BadUnicornDemoRegular-BVWx.ttf"),
+    local("BadUnicorn");
+}
 
 body{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
+    
+
     font-family: FaithCollapsing;
     font-size: large;
-    
 }
 
-div{
-    align-self: center;
-    
-}
-
-#headerbox{
+#headerBox{
     display: flex;
-    align-content: center;
-    justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: black solid 2px;
 }
-
-#mouseBox{
-    display: grid;
-    justify-content: center;
-    align-self: center;
-}
-
-.mouse{
+#bodyBox{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
+
+#left{
+    border-right: 2px solid black;
+    width: 33%; 
+}
+
+#middle{
+    width: 33%;
+    padding: 0.5rem;
+    color: palevioletred;
+    
+    font-family: BadUnicorn;
+    font-size: 40px;
+    border-style: solid;
+    background-image: url("magic bg.jpg");
+}
+
+#right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkButton{
+    background-image: url(skull.png);
+    background-size: cover;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+}
+#linkButton:hover{
+    background-image: url(bad-to-the-bone-meme.gif);
+}
+
+
